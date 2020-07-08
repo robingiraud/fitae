@@ -14,9 +14,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PackageJsonUpdateNotifier">
-    <dismissed value="$PROJECT_DIR$/package.json" />
-  </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
@@ -130,17 +127,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/app/Http/Controllers" />
+      <recent name="$PROJECT_DIR$/public/css" />
+      <recent name="$PROJECT_DIR$/app" />
       <recent name="$PROJECT_DIR$/resources/views" />
-      <recent name="$PROJECT_DIR$/database/seeds" />
-      <recent name="$PROJECT_DIR$/database/migrations" />
     </key>
   </component>
   <component name="RunManager">
@@ -161,7 +158,7 @@
       <updated>1594206532567</updated>
       <workItem from="1594206533915" duration="78000" />
       <workItem from="1594207271336" duration="440000" />
-      <workItem from="1594241313682" duration="1361000" />
+      <workItem from="1594241313682" duration="2415000" />
     </task>
     <servers />
   </component>
@@ -187,13 +184,13 @@
       <screen x="0" y="23" width="1440" height="813" />
     </state>
     <state x="113" y="68" width="1253" height="722" key="SettingsEditor/0.23.1440.813@0.23.1440.813" timestamp="1594206608055" />
-    <state x="422" y="58" width="694" height="783" key="find.popup" timestamp="1594242339923">
+    <state x="422" y="58" width="694" height="783" key="find.popup" timestamp="1594243673339">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="422" y="58" width="694" height="783" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1594242339923" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1594242678113">
+    <state x="422" y="58" width="694" height="783" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1594243673339" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1594243860415">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1594242678113" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1594243860415" />
   </component>
 </project>
