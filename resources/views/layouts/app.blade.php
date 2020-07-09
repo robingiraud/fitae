@@ -3,11 +3,12 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
+    @yield('extra-meta')
 
     <title>{{ config('app.name', 'Laravel') }}</title>
+    @yield('extra-script')
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -70,15 +71,15 @@
                                     </form>
                                 </div>
                             </li>
-                            <li class="nav-item">
-                                <a href="{{ route('cart.index') }}" class="px-4 py-2 mt-2 text-lg text-gray-900 bg-gray-200 rounded-lg sm:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-300">
+                        @endguest
+                        <li class="nav-item">
+                            <a href="{{ route('cart.index') }}" class="px-4 py-2 mt-2 text-lg text-gray-900 bg-gray-200 rounded-lg sm:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-300">
                                     <span class="badge mb-3 bg-red-800 rounded-full px-2 py-1 text-center object-right-top text-white text-sm mr-1">
                                         {{ Cart::count() }}
                                     </span>
-                                    Mon panier
-                                </a>
-                            </li>
-                        @endguest
+                                Mon panier
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -88,5 +89,6 @@
             @yield('content')
         </main>
     </div>
+    @yield('extra-js')
 </body>
 </html>

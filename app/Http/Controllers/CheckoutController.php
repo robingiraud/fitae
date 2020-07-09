@@ -3,10 +3,10 @@
 namespace App\Http\Controllers;
 
 use Gloudemans\Shoppingcart\Facades\Cart;
-use Stripe\PaymentIntent;
 use Stripe\Stripe;
-use Illuminate\Support\Arr;
+use Stripe\PaymentIntent;
 use Illuminate\Http\Request;
+use Illuminate\Support\Arr;
 
 class CheckoutController extends Controller
 {
@@ -24,11 +24,12 @@ class CheckoutController extends Controller
         Stripe::setApiKey('sk_test_51H2LKjLH5WwIy3sFx9DNn8zS0JAT82xhm1twACGP3XLTNZKmVsTPBr9AuElRUvofML0beB7hhZ9G6I5BDC19ZzUx00dSVlHNYm');
 
         $intent = PaymentIntent::create([
-            'amount' => Cart::total()*100,
+            'amount' => round(Cart::total()),
             'currency' => 'eur',
         ]);
 
         $clientSecret = Arr::get($intent, 'client_secret');
+
 
         return view('checkout.index', ['clientSecret' => $clientSecret]);
     }

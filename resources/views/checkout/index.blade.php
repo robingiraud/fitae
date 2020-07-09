@@ -8,6 +8,7 @@
 
 
 @section('content')
+    {{ $clientSecret  }}
     <div class="flex justify-center items-center mt-5">
         <form action="{{ route('checkout.store') }}" method="POST" id="payment-form" class="w-1/5">
             @csrf
