@@ -4,6 +4,9 @@
 // Variables
 @import 'variables';
 
+// Bootstrap CSS
+@import "node_modules/bootstrap/scss/bootstrap";
+
 // Tailwind CSS
 @import "~tailwindcss/base.css";
 @import "~tailwindcss/components.css";
