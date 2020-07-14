@@ -103,6 +103,9 @@
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
       <path value="$PROJECT_DIR$/vendor/hardevine/shoppingcart" />
       <path value="$PROJECT_DIR$/vendor/stripe/stripe-php" />
+      <path value="$PROJECT_DIR$/vendor/thedoctor0/laravel-mailjet-driver" />
+      <path value="$PROJECT_DIR$/vendor/mailjet/mailjet-swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/mailjet/mailjet-apiv3-php" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.2" />

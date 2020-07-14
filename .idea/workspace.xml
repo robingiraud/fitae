@@ -9,7 +9,9 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution />
+    <execution>
+      <executable path="composer" />
+    </execution>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -117,6 +119,9 @@
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
       <path value="$PROJECT_DIR$/vendor/hardevine/shoppingcart" />
       <path value="$PROJECT_DIR$/vendor/stripe/stripe-php" />
+      <path value="$PROJECT_DIR$/vendor/thedoctor0/laravel-mailjet-driver" />
+      <path value="$PROJECT_DIR$/vendor/mailjet/mailjet-swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/mailjet/mailjet-apiv3-php" />
     </include_path>
   </component>
   <component name="ProjectId" id="1eOxe7PczyE7RdP2fVyJ468ZVp5" />
@@ -134,15 +139,17 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/storage/images" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/assets/images" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/app/Http/Controllers" />
       <recent name="$PROJECT_DIR$/public/css" />
       <recent name="$PROJECT_DIR$/app" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/assets/images/logo" />
+      <recent name="$PROJECT_DIR$/public/assets/images/logo-orange-sm" />
+      <recent name="$PROJECT_DIR$/storage/images" />
     </key>
   </component>
   <component name="RunManager">
@@ -164,7 +171,8 @@
       <workItem from="1594206533915" duration="78000" />
       <workItem from="1594207271336" duration="440000" />
       <workItem from="1594241313682" duration="2530000" />
-      <workItem from="1594292244489" duration="4976000" />
+      <workItem from="1594292244489" duration="5118000" />
+      <workItem from="1594666453645" duration="15360000" />
     </task>
     <servers />
   </component>
@@ -182,10 +190,14 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1594242514506" />
-    <state x="471" y="167" key="NewPhpClassDialog" timestamp="1594242605137">
+    <state x="458" y="369" key="ComposerInitDialogKey" timestamp="1594717936586">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="471" y="167" key="NewPhpClassDialog/0.0.1440.900@0.0.1440.900" timestamp="1594242605137" />
+    <state x="458" y="369" key="ComposerInitDialogKey/0.0.1440.900@0.0.1440.900" timestamp="1594717936586" />
+    <state x="471" y="167" key="NewPhpClassDialog" timestamp="1594716292804">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="471" y="167" key="NewPhpClassDialog/0.0.1440.900@0.0.1440.900" timestamp="1594716292804" />
     <state x="539" y="376" key="NewPhpFileDialog" timestamp="1594313868758">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -194,13 +206,14 @@
       <screen x="0" y="23" width="1440" height="813" />
     </state>
     <state x="113" y="68" width="1253" height="722" key="SettingsEditor/0.23.1440.813@0.23.1440.813" timestamp="1594206608055" />
-    <state x="422" y="58" width="694" height="783" key="find.popup" timestamp="1594313007600">
+    <state x="422" y="58" width="694" height="783" key="find.popup" timestamp="1594716388003">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="422" y="58" width="694" height="783" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1594313007600" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1594314997953">
+    <state x="422" y="58" width="694" height="783" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1594716388003" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1594717554388">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1594314997953" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1594717554388" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.23.1440.813@0.23.1440.813" timestamp="1594716370701" />
   </component>
 </project>

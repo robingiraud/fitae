@@ -1,5 +1,7 @@
 <?php
 
+use App\Mail\RequestMail;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -20,6 +22,9 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/offre-prepa', 'PageController@offrePrepa')->name('offre-prepa');
+Route::get('/offre-club', 'PageController@offreClub')->name('offre-club');
 
 /*
  * Product routes
@@ -43,3 +48,16 @@ Route::get('/videpanier', function () {
  */
 Route::get('/paiement', 'CheckoutController@index')->name('checkout.index');
 Route::post('/paiement', 'CheckoutController@store')->name('checkout.store');
+
+/*
+ * Contact form routes
+ */
+Route::post('offre-club', 'ContactFormController@store');
+
+/*
+ * Test mails routes
+ */
+Route::get('/requestmail', function () {
+    Mail::to('robin.giraud5@gmail.com')->send(new RequestMail());
+    return new RequestMail();
+});
