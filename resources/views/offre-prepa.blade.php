@@ -58,53 +58,27 @@
                                 <div
                                     class=" rounded-full p-2 fill-current text-green-700"
                                 >
-                                    <svg
-                                        class="w-6 h-6 align-middle"
-                                        width="24"
-                                        height="24"
-                                        viewBox="0 0 24 24"
-                                        fill="none"
-                                        stroke="currentColor"
-                                        stroke-width="2"
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                    >
-                                        <path
-                                            d="M22 11.08V12a10 10 0 1 1-5.93-9.14"
-                                        ></path>
-                                        <polyline
-                                            points="22 4 12 14.01 9 11.01"
-                                        ></polyline>
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M22 11.08V12C21.9988 14.1564 21.3005 16.2547 20.0093 17.9818C18.7182 19.709 16.9033 20.9725 14.8354 21.5839C12.7674 22.1953 10.5573 22.1219 8.53447 21.3746C6.51168 20.6273 4.78465 19.2461 3.61096 17.4371C2.43727 15.628 1.87979 13.4881 2.02168 11.3363C2.16356 9.18457 2.99721 7.13633 4.39828 5.49707C5.79935 3.85782 7.69279 2.71538 9.79619 2.24015C11.8996 1.76491 14.1003 1.98234 16.07 2.86" stroke="#ff5454" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <rect x="7.22998" y="15.4853" width="12" height="1.5" rx="0.75" transform="rotate(-45 7.22998 15.4853)" fill="#ff5454"/>
+                                        <rect x="8.29065" y="7" width="12" height="1.5" rx="0.75" transform="rotate(45 8.29065 7)" fill="#ff5454"/>
                                     </svg>
                                 </div>
                                 <span class="text-gray-700 text-lg ml-3"
-                                >No setups</span
+                                >Bilan de fin de programme</span
                                 >
                             </li>
                             <li class="flex items-center">
                                 <div
                                     class=" rounded-full p-2 fill-current text-green-700"
                                 >
-                                    <svg
-                                        class="w-6 h-6 align-middle"
-                                        width="24"
-                                        height="24"
-                                        viewBox="0 0 24 24"
-                                        fill="none"
-                                        stroke="currentColor"
-                                        stroke-width="2"
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                    >
-                                        <path
-                                            d="M22 11.08V12a10 10 0 1 1-5.93-9.14"
-                                        ></path>
-                                        <polyline
-                                            points="22 4 12 14.01 9 11.01"
-                                        ></polyline>
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M22 11.08V12C21.9988 14.1564 21.3005 16.2547 20.0093 17.9818C18.7182 19.709 16.9033 20.9725 14.8354 21.5839C12.7674 22.1953 10.5573 22.1219 8.53447 21.3746C6.51168 20.6273 4.78465 19.2461 3.61096 17.4371C2.43727 15.628 1.87979 13.4881 2.02168 11.3363C2.16356 9.18457 2.99721 7.13633 4.39828 5.49707C5.79935 3.85782 7.69279 2.71538 9.79619 2.24015C11.8996 1.76491 14.1003 1.98234 16.07 2.86" stroke="#ff5454" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <rect x="7.22998" y="15.4853" width="12" height="1.5" rx="0.75" transform="rotate(-45 7.22998 15.4853)" fill="#ff5454"/>
+                                        <rect x="8.29065" y="7" width="12" height="1.5" rx="0.75" transform="rotate(45 8.29065 7)" fill="#ff5454"/>
                                     </svg>
                                 </div>
-                                <span class="text-gray-700 text-lg ml-3">Speed</span>
+                                <span class="text-gray-700 text-lg font- ml-3">Suivi personnalisé</span>
                             </li>
                         </ul>
                     </div>
@@ -140,27 +114,6 @@
                     <ul>
                         <li class="flex items-center">
                             <div
-                                class="rounded-full p-2 fill-current text-green-700"
-                            >
-                                <svg
-                                    class="w-6 h-6 align-middle"
-                                    width="24"
-                                    height="24"
-                                    viewBox="0 0 24 24"
-                                    fill="none"
-                                    stroke="currentColor"
-                                    stroke-width="2"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                >
-                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
-                                </svg>
-                            </div>
-                            <span class="text-gray-700 text-lg ml-3">100% personnalisé</span>
-                        </li>
-                        <li class="flex items-center">
-                            <div
                                 class=" rounded-full p-2 fill-current text-green-700"
                             >
                                 <svg
@@ -174,12 +127,16 @@
                                     stroke-linecap="round"
                                     stroke-linejoin="round"
                                 >
-                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                                    <path
+                                        d="M22 11.08V12a10 10 0 1 1-5.93-9.14"
+                                    ></path>
+                                    <polyline
+                                        points="22 4 12 14.01 9 11.01"
+                                    ></polyline>
                                 </svg>
                             </div>
                             <span class="text-gray-700 text-lg ml-3"
-                            >Entretien de début</span
+                            >100% personnalisé</span
                             >
                         </li>
                         <li class="flex items-center">
@@ -197,11 +154,29 @@
                                     stroke-linecap="round"
                                     stroke-linejoin="round"
                                 >
-                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                                    <path
+                                        d="M22 11.08V12a10 10 0 1 1-5.93-9.14"
+                                    ></path>
+                                    <polyline
+                                        points="22 4 12 14.01 9 11.01"
+                                    ></polyline>
                                 </svg>
                             </div>
-                            <span class="text-gray-700 text-lg ml-3">Original</span>
+                            <span class="text-gray-700 text-lg ml-3"
+                            >Bilan de fin de programme</span
+                            >
+                        </li>
+                        <li class="flex items-center">
+                            <div
+                                class=" rounded-full p-2 fill-current text-green-700"
+                            >
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M22 11.08V12C21.9988 14.1564 21.3005 16.2547 20.0093 17.9818C18.7182 19.709 16.9033 20.9725 14.8354 21.5839C12.7674 22.1953 10.5573 22.1219 8.53447 21.3746C6.51168 20.6273 4.78465 19.2461 3.61096 17.4371C2.43727 15.628 1.87979 13.4881 2.02168 11.3363C2.16356 9.18457 2.99721 7.13633 4.39828 5.49707C5.79935 3.85782 7.69279 2.71538 9.79619 2.24015C11.8996 1.76491 14.1003 1.98234 16.07 2.86" stroke="#ff5454" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <rect x="7.22998" y="15.4853" width="12" height="1.5" rx="0.75" transform="rotate(-45 7.22998 15.4853)" fill="#ff5454"/>
+                                    <rect x="8.29065" y="7" width="12" height="1.5" rx="0.75" transform="rotate(45 8.29065 7)" fill="#ff5454"/>
+                                </svg>
+                            </div>
+                            <span class="text-gray-700 text-lg font- ml-3">Suivi personnalisé</span>
                         </li>
                     </ul>
                 </div>
@@ -258,7 +233,7 @@
                                     </svg>
                                 </div>
                                 <span class="text-gray-700 text-lg ml-3"
-                                >Electric</span
+                                >100% personnalisé</span
                                 >
                             </li>
                             <li class="flex items-center">
@@ -274,13 +249,18 @@
                                         stroke="currentColor"
                                         stroke-width="2"
                                         stroke-linecap="round"
-                                        stroke-linejoin="round">
-                                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-                                        <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                                        stroke-linejoin="round"
+                                    >
+                                        <path
+                                            d="M22 11.08V12a10 10 0 1 1-5.93-9.14"
+                                        ></path>
+                                        <polyline
+                                            points="22 4 12 14.01 9 11.01"
+                                        ></polyline>
                                     </svg>
                                 </div>
                                 <span class="text-gray-700 text-lg ml-3"
-                                >Monthly</span
+                                >Bilan de fin de programme</span
                                 >
                             </li>
                             <li class="flex items-center">
@@ -296,12 +276,17 @@
                                         stroke="currentColor"
                                         stroke-width="2"
                                         stroke-linecap="round"
-                                        stroke-linejoin="round">
-                                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-                                        <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                                        stroke-linejoin="round"
+                                    >
+                                        <path
+                                            d="M22 11.08V12a10 10 0 1 1-5.93-9.14"
+                                        ></path>
+                                        <polyline
+                                            points="22 4 12 14.01 9 11.01"
+                                        ></polyline>
                                     </svg>
                                 </div>
-                                <span class="text-gray-700 text-lg ml-3">No setup</span>
+                                <span class="text-gray-700 text-lg font- ml-3">Suivi personnalisé</span>
                             </li>
                         </ul>
                     </div>

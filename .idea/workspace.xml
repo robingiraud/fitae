@@ -134,22 +134,24 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/assets/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/css" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/js" />
+      <recent name="$PROJECT_DIR$/public/assets/images/backgrounds" />
+      <recent name="$PROJECT_DIR$/public/assets/images/clubs" />
+      <recent name="$PROJECT_DIR$/resources/views" />
+      <recent name="$PROJECT_DIR$/public/assets/images/logo" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/css" />
       <recent name="$PROJECT_DIR$/public/assets/images" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/app/Http/Controllers" />
       <recent name="$PROJECT_DIR$/public/css" />
-      <recent name="$PROJECT_DIR$/app" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/assets/images/logo" />
-      <recent name="$PROJECT_DIR$/public/assets/images/logo-orange-sm" />
-      <recent name="$PROJECT_DIR$/storage/images" />
     </key>
   </component>
   <component name="RunManager">
@@ -172,7 +174,8 @@
       <workItem from="1594207271336" duration="440000" />
       <workItem from="1594241313682" duration="2530000" />
       <workItem from="1594292244489" duration="5118000" />
-      <workItem from="1594666453645" duration="15360000" />
+      <workItem from="1594666453645" duration="22335000" />
+      <workItem from="1595263228121" duration="2310000" />
     </task>
     <servers />
   </component>
@@ -186,10 +189,10 @@
     </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
-    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594242514506">
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1595264918966">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1594242514506" />
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1595264918966" />
     <state x="458" y="369" key="ComposerInitDialogKey" timestamp="1594717936586">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -206,14 +209,14 @@
       <screen x="0" y="23" width="1440" height="813" />
     </state>
     <state x="113" y="68" width="1253" height="722" key="SettingsEditor/0.23.1440.813@0.23.1440.813" timestamp="1594206608055" />
-    <state x="422" y="58" width="694" height="783" key="find.popup" timestamp="1594716388003">
+    <state x="422" y="58" width="694" height="783" key="find.popup" timestamp="1594842881978">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="422" y="58" width="694" height="783" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1594716388003" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1594717554388">
+    <state x="422" y="58" width="694" height="783" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1594842881978" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1595264602173">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1594717554388" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1595264602173" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.23.1440.813@0.23.1440.813" timestamp="1594716370701" />
   </component>
 </project>

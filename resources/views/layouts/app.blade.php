@@ -49,11 +49,11 @@
                     </ul>
 
                     <!-- Right Side Of Navbar -->
-                    <ul class="navbar-nav ml-auto">
+                    <ul class="navbar-nav ml-auto items-center">
                         <!-- Authentication Links -->
                         @guest
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+                                <a class="nav-link" href="{{ route('login') }}">{{ __('Se connecter') }}</a>
                             </li>
                             @if (Route::has('register'))
                                 <li class="nav-item">
@@ -81,20 +81,20 @@
                                 </div>
                             </li>
                         @endguest
-                        <li class="nav-item">
+                        <!--<li class="nav-item">
                             <a class="nav-link" href="{{ route('cart.index') }}">
                                 Mon panier
-                                <span class="badge mb-3 bg-orange-500 rounded-full px-2 py-1 text-center object-right-top text-white text-sm mr-1">
+                                <span class="badge bg-orange-500 rounded-full px-2 py-1 text-center object-right-top text-white text-sm">
                                     {{ Cart::count() }}
                                 </span>
                             </a>
-                        </li>
+                        </li>-->
                     </ul>
                 </div>
             </div>
         </nav>
 
-        <main class="mt-16">
+        <main class="mt-12">
             @yield('content')
         </main>
 
