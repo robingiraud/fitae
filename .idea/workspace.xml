@@ -134,7 +134,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
@@ -160,6 +160,18 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -176,11 +188,13 @@
       <workItem from="1594292244489" duration="5118000" />
       <workItem from="1594666453645" duration="22335000" />
       <workItem from="1595263228121" duration="2310000" />
+      <workItem from="1595434285854" duration="18000" />
+      <workItem from="1595434305238" duration="2199000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -197,6 +211,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="369" key="ComposerInitDialogKey/0.0.1440.900@0.0.1440.900" timestamp="1594717936586" />
+    <state x="1060" y="454" key="FileChooserDialogImpl" timestamp="1595434302701">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1060" y="454" key="FileChooserDialogImpl/-1920.363.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1595434302701" />
     <state x="471" y="167" key="NewPhpClassDialog" timestamp="1594716292804">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -209,13 +227,19 @@
       <screen x="0" y="23" width="1440" height="813" />
     </state>
     <state x="113" y="68" width="1253" height="722" key="SettingsEditor/0.23.1440.813@0.23.1440.813" timestamp="1594206608055" />
-    <state x="422" y="58" width="694" height="783" key="find.popup" timestamp="1594842881978">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="956" y="523" key="com.intellij.ide.util.TipDialog" timestamp="1595434286081">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state x="956" y="523" key="com.intellij.ide.util.TipDialog/-1920.363.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1595434286081" />
+    <state x="750" y="90" width="1234" height="1218" key="find.popup" timestamp="1595439012087">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="750" y="90" width="1234" height="1218" key="find.popup/-1920.363.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1595439012087" />
     <state x="422" y="58" width="694" height="783" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1594842881978" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1595264602173">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="684" y="305" width="1192" height="1052" key="search.everywhere.popup" timestamp="1595439290099">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state x="684" y="305" width="1192" height="1052" key="search.everywhere.popup/-1920.363.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1595439290099" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1595264602173" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.23.1440.813@0.23.1440.813" timestamp="1594716370701" />
   </component>
